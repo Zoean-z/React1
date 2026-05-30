@@ -378,10 +378,10 @@ function ReviewGlyph({ kind }) {
 function Sidebar({ pathname, navigate }) {
   const navItems = useMemo(
     () => [
-      { label: "学习任务", icon: navTask, href: "/" },
+      { label: "学习任务", icon: navTask, href: "/", purpleIcon: true },
       { label: "我的小队", icon: navTeam, href: "/team" },
       { label: "加入小队", icon: navJoin, href: "/join" },
-      { label: "消息", icon: navMessage, href: "/messages" }
+      { label: "消息", icon: navMessage, href: "/messages", purpleIcon: true }
     ],
     []
   );
@@ -401,7 +401,7 @@ function Sidebar({ pathname, navigate }) {
           return (
             <button
               key={item.label}
-              className={`nav-item ${active ? "active" : ""}`}
+              className={`nav-item ${active ? "active" : ""} ${item.purpleIcon ? "purple-icon" : ""}`}
               onClick={() => navigate(item.href)}
               type="button"
             >

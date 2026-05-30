@@ -114,8 +114,14 @@ button {
   box-shadow: var(--shadow);
 }
 
+/* 灰色图标选中时变紫 */
 .nav-item.active .nav-icon-image {
-  filter: brightness(0) saturate(100%) invert(29%) sepia(96%) saturate(3000%) hue-rotate(232deg) brightness(96%) contrast(95%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(80%) saturate(3000%) hue-rotate(235deg) brightness(95%) contrast(90%);
+}
+
+/* 已经是紫色的图标选中时变亮 */
+.nav-item.purple-icon.active .nav-icon-image {
+  filter: brightness(1.3) saturate(1.4);
 }
 
 .nav-icon {
