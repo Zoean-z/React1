@@ -55,6 +55,12 @@
 - Node.js 16+ 
 - npm 或 yarn
 
+### 克隆仓库
+```bash
+git clone https://github.com/Zoean-z/React1.git
+cd React1
+```
+
 ### 安装依赖
 ```bash
 npm install
