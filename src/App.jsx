@@ -8,6 +8,7 @@ import brandLogo from "./assets/brand-logo.png";
 import heroHome from "./assets/hero-home.png";
 import heroJoin from "./assets/hero-join.png";
 import heroMessage from "./assets/hero-message.png";
+import iconSms from "./assets/icon-sms.png";
 import heroTeam from "./assets/hero-team.png";
 import iconAnnounce from "./assets/icon-announce.png";
 import iconColdStable from "./assets/icon-cold-stable.png";
@@ -249,7 +250,7 @@ const strategyOptions = [
   { title: "系统 Push", desc: "在你活跃时段（19:00-21:00）推送提醒", priority: "推荐优先级：高", icon: iconReminderClock, accent: "purple" },
   { title: "队友戳一戳", desc: "由小队成员发送轻提醒，增强同伴影响力", priority: "推荐优先级：中", icon: iconToolNudge, accent: "blue" },
   { title: "AI 队长提醒", desc: "由 AI 队长发送鼓励式提醒，强调小队目标", priority: "推荐优先级：中", icon: iconToolAi, accent: "violet" },
-  { title: "短信升级触达", desc: "若未打开 App，短信提醒任务进度", priority: "推荐优先级：低", glyph: "sms", accent: "orange" },
+  { title: "短信升级触达", desc: "若未打开 App，短信提醒任务进度", priority: "推荐优先级：低", icon: iconSms, accent: "orange" },
   { title: "微信服务号回流", desc: "连续多天未打开时，通过服务号回流提醒", priority: "推荐优先级：低", icon: iconJoinRobotHead, accent: "green" }
 ];
 
