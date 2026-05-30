@@ -38,6 +38,7 @@ import illustrationFriends from "./assets/illustration-friends.png";
 import messageBirdFooter from "./assets/message-bird-footer.png";
 import messageTipBulb from "./assets/message-tip-bulb.png";
 import navJoin from "./assets/nav-join.png";
+import navMessage from "./assets/nav-message.png";
 import navTask from "./assets/nav-task.png";
 import navTeam from "./assets/nav-team.png";
 import teamChatAvatar from "./assets/team-chat-avatar.png";
@@ -379,7 +380,8 @@ function Sidebar({ pathname, navigate }) {
     () => [
       { label: "学习任务", icon: navTask, href: "/" },
       { label: "我的小队", icon: navTeam, href: "/team" },
-      { label: "加入小队", icon: navJoin, href: "/join" }
+      { label: "加入小队", icon: navJoin, href: "/join" },
+      { label: "消息", icon: navMessage, href: "/messages" }
     ],
     []
   );
