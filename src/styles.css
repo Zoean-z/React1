@@ -1804,7 +1804,7 @@ button {
 
 .message-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 180px;
+  grid-template-columns: 1fr;
   gap: 18px;
 }
 

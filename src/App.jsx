@@ -1140,58 +1140,6 @@ function MessageWorkspace() {
           </button>
         </div>
       </div>
-
-      <div className="message-side-column">
-        <aside className="panel message-side-card">
-          <div className="panel-title text-only">
-            <h2>快捷功能</h2>
-          </div>
-          <div className="message-quick-list">
-            {messageQuickActions.map((item) => (
-              <button className="message-quick-item" key={item.title} type="button">
-                <ImgIcon src={item.icon} alt="" className="message-quick-icon" />
-                <span>{item.title}</span>
-              </button>
-            ))}
-          </div>
-        </aside>
-
-        <aside className="panel message-side-card">
-          <div className="panel-title text-only">
-            <h2>小队状态</h2>
-          </div>
-          <div className="message-side-metric">
-            <span>今日完成率</span>
-            <div className="message-mini-ring">
-              <div className="message-mini-ring-inner">
-                <strong>75%</strong>
-                <small>还差 1 人</small>
-              </div>
-            </div>
-          </div>
-          <div className="message-side-metric">
-            <span>连胜天数</span>
-            <div className="message-side-streak">
-              <strong>6 天</strong>
-              <ImgIcon src={iconMedal} alt="" className="message-side-medal" />
-            </div>
-          </div>
-        </aside>
-
-        <aside className="panel message-side-card">
-          <div className="panel-title text-only">
-            <h2>消息提示</h2>
-          </div>
-          <div className="message-hints">
-            {messageHints.map((item) => (
-              <div className="message-hint-row" key={item.text}>
-                <ImgIcon src={item.icon} alt="" className="message-hint-icon" />
-                <span>{item.text}</span>
-              </div>
-            ))}
-          </div>
-        </aside>
-      </div>
     </section>
   );
 }
