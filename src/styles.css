@@ -47,7 +47,7 @@ button {
 
 .app-shell {
   display: grid;
-  grid-template-columns: 108px minmax(0, 1fr);
+  grid-template-columns: 140px minmax(0, 1fr);
   min-height: 100vh;
 }
 
