@@ -2737,7 +2737,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 32px;
+  height: 48px;
 }
 
 .strategy-heatmap-content {
@@ -2754,14 +2754,15 @@ button {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 6px;
-  min-height: 32px;
   align-items: center;
+  justify-items: center;
 }
 
 .strategy-heatmap-cell {
   display: block;
   width: 100%;
-  height: 32px;
+  max-width: 48px;
+  aspect-ratio: 1;
   border-radius: 6px;
   background: #5f57ff;
 }
@@ -2775,6 +2776,7 @@ button {
   font-size: 0.84rem;
   font-weight: 700;
   text-align: center;
+  justify-items: center;
 }
 
 .strategy-scale {
