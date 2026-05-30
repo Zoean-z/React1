@@ -114,6 +114,10 @@ button {
   box-shadow: var(--shadow);
 }
 
+.nav-item.active .nav-icon-image {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(96%) saturate(3000%) hue-rotate(232deg) brightness(96%) contrast(95%);
+}
+
 .nav-icon {
   display: grid;
   place-items: center;
