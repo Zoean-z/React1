@@ -60,6 +60,11 @@ button {
   background: rgba(255, 255, 255, 0.64);
   border-right: 1px solid rgba(114, 126, 255, 0.08);
   backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 100;
 }
 
 .brand {
@@ -143,6 +148,10 @@ button {
   justify-items: center;
   gap: 8px;
   text-align: center;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  width: 140px;
 }
 
 .sidebar-avatar {
@@ -166,6 +175,8 @@ button {
 
 .main-content {
   padding: 26px 22px 22px;
+  margin-left: 140px;
+  min-height: 100vh;
 }
 
 .main-content > * {
